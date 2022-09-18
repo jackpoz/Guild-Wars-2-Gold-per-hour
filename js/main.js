@@ -1333,6 +1333,12 @@
                 break;
             case 'Legendary':
                 rarityLevel = 8;
+                // Clear the value of legendary items as they are rarely sold anyway
+                buyValue = null;
+                sellValue = null;
+                totalBuy = 0;
+                totalSell = 0;
+                itemValue = 0;
                 break;
             }
 
